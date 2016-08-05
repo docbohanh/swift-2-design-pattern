@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ECE499B1D4E6425000298D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE499A1D4E6425000298D1 /* main.swift */; };
+		9ECE49A21D4E6440000298D1 /* Floorplans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE49A11D4E6440000298D1 /* Floorplans.swift */; };
+		9ECE49A41D4E64E4000298D1 /* Suspension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE49A31D4E64E4000298D1 /* Suspension.swift */; };
+		9ECE49A61D4E658C000298D1 /* Drivetrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE49A51D4E658C000298D1 /* Drivetrains.swift */; };
+		9ECE49A81D4E66FE000298D1 /* CarParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE49A71D4E66FE000298D1 /* CarParts.swift */; };
+		9ECE49AA1D4E6F08000298D1 /* Abstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE49A91D4E6F08000298D1 /* Abstract.swift */; };
+		9ECE49AE1D4E6FDF000298D1 /* Concrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE49AD1D4E6FDF000298D1 /* Concrete.swift */; };
+		9ECE49B11D4E7796000298D1 /* SuspensionOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE49B01D4E7796000298D1 /* SuspensionOption.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9ECE49951D4E6425000298D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9ECE49971D4E6425000298D1 /* AbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECE499A1D4E6425000298D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9ECE49A11D4E6440000298D1 /* Floorplans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floorplans.swift; sourceTree = "<group>"; };
+		9ECE49A31D4E64E4000298D1 /* Suspension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suspension.swift; sourceTree = "<group>"; };
+		9ECE49A51D4E658C000298D1 /* Drivetrains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drivetrains.swift; sourceTree = "<group>"; };
+		9ECE49A71D4E66FE000298D1 /* CarParts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarParts.swift; sourceTree = "<group>"; };
+		9ECE49A91D4E6F08000298D1 /* Abstract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abstract.swift; sourceTree = "<group>"; };
+		9ECE49AD1D4E6FDF000298D1 /* Concrete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Concrete.swift; path = ../Concrete.swift; sourceTree = "<group>"; };
+		9ECE49AF1D4E7796000298D1 /* AbstractFactory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AbstractFactory-Bridging-Header.h"; sourceTree = "<group>"; };
+		9ECE49B01D4E7796000298D1 /* SuspensionOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspensionOption.m; sourceTree = "<group>"; };
+		9ECE49B21D4E77C8000298D1 /* SuspensionOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspensionOption.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ECE49941D4E6425000298D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ECE498E1D4E6425000298D1 = {
+			isa = PBXGroup;
+			children = (
+				9ECE49991D4E6425000298D1 /* AbstractFactory */,
+				9ECE49981D4E6425000298D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECE49981D4E6425000298D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ECE49971D4E6425000298D1 /* AbstractFactory */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECE49991D4E6425000298D1 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				9ECE499A1D4E6425000298D1 /* main.swift */,
+				9ECE49A11D4E6440000298D1 /* Floorplans.swift */,
+				9ECE49A31D4E64E4000298D1 /* Suspension.swift */,
+				9ECE49A51D4E658C000298D1 /* Drivetrains.swift */,
+				9ECE49A71D4E66FE000298D1 /* CarParts.swift */,
+				9ECE49A91D4E6F08000298D1 /* Abstract.swift */,
+				9ECE49AD1D4E6FDF000298D1 /* Concrete.swift */,
+				9ECE49B21D4E77C8000298D1 /* SuspensionOption.h */,
+				9ECE49B01D4E7796000298D1 /* SuspensionOption.m */,
+				9ECE49AF1D4E7796000298D1 /* AbstractFactory-Bridging-Header.h */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ECE49961D4E6425000298D1 /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECE499E1D4E6425000298D1 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				9ECE49931D4E6425000298D1 /* Sources */,
+				9ECE49941D4E6425000298D1 /* Frameworks */,
+				9ECE49951D4E6425000298D1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = 9ECE49971D4E6425000298D1 /* AbstractFactory */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ECE498F1D4E6425000298D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HungDo;
+				TargetAttributes = {
+					9ECE49961D4E6425000298D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9ECE49921D4E6425000298D1 /* Build configuration list for PBXProject "AbstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9ECE498E1D4E6425000298D1;
+			productRefGroup = 9ECE49981D4E6425000298D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ECE49961D4E6425000298D1 /* AbstractFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ECE49931D4E6425000298D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECE49A81D4E66FE000298D1 /* CarParts.swift in Sources */,
+				9ECE499B1D4E6425000298D1 /* main.swift in Sources */,
+				9ECE49A41D4E64E4000298D1 /* Suspension.swift in Sources */,
+				9ECE49A21D4E6440000298D1 /* Floorplans.swift in Sources */,
+				9ECE49AE1D4E6FDF000298D1 /* Concrete.swift in Sources */,
+				9ECE49B11D4E7796000298D1 /* SuspensionOption.m in Sources */,
+				9ECE49A61D4E658C000298D1 /* Drivetrains.swift in Sources */,
+				9ECE49AA1D4E6F08000298D1 /* Abstract.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9ECE499C1D4E6425000298D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ECE499D1D4E6425000298D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9ECE499F1D4E6425000298D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AbstractFactory/AbstractFactory-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ECE49A01D4E6425000298D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AbstractFactory/AbstractFactory-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ECE49921D4E6425000298D1 /* Build configuration list for PBXProject "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECE499C1D4E6425000298D1 /* Debug */,
+				9ECE499D1D4E6425000298D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECE499E1D4E6425000298D1 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECE499F1D4E6425000298D1 /* Debug */,
+				9ECE49A01D4E6425000298D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ECE498F1D4E6425000298D1 /* Project object */;
+}

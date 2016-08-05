@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E8F0FC41D51DE1C00F7F3AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8F0FC31D51DE1C00F7F3AC /* main.swift */; };
+		9E8F0FCF1D51DE4F00F7F3AC /* Airplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8F0FCE1D51DE4F00F7F3AC /* Airplane.swift */; };
+		9EB9A1471D524C940053D74B /* CommandMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB9A1461D524C940053D74B /* CommandMediator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E8F0FBE1D51DE1C00F7F3AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E8F0FC01D51DE1C00F7F3AC /* MediatorBase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MediatorBase; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8F0FC31D51DE1C00F7F3AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9E8F0FCE1D51DE4F00F7F3AC /* Airplane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airplane.swift; sourceTree = "<group>"; };
+		9EB9A1461D524C940053D74B /* CommandMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandMediator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E8F0FBD1D51DE1C00F7F3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E8F0FB71D51DE1C00F7F3AC = {
+			isa = PBXGroup;
+			children = (
+				9E8F0FC21D51DE1C00F7F3AC /* MediatorBase */,
+				9E8F0FC11D51DE1C00F7F3AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8F0FC11D51DE1C00F7F3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E8F0FC01D51DE1C00F7F3AC /* MediatorBase */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8F0FC21D51DE1C00F7F3AC /* MediatorBase */ = {
+			isa = PBXGroup;
+			children = (
+				9E8F0FCE1D51DE4F00F7F3AC /* Airplane.swift */,
+				9EB9A1461D524C940053D74B /* CommandMediator.swift */,
+				9E8F0FC31D51DE1C00F7F3AC /* main.swift */,
+			);
+			path = MediatorBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E8F0FBF1D51DE1C00F7F3AC /* MediatorBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8F0FC71D51DE1C00F7F3AC /* Build configuration list for PBXNativeTarget "MediatorBase" */;
+			buildPhases = (
+				9E8F0FBC1D51DE1C00F7F3AC /* Sources */,
+				9E8F0FBD1D51DE1C00F7F3AC /* Frameworks */,
+				9E8F0FBE1D51DE1C00F7F3AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediatorBase;
+			productName = MediatorBase;
+			productReference = 9E8F0FC01D51DE1C00F7F3AC /* MediatorBase */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E8F0FB81D51DE1C00F7F3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HungDo;
+				TargetAttributes = {
+					9E8F0FBF1D51DE1C00F7F3AC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E8F0FBB1D51DE1C00F7F3AC /* Build configuration list for PBXProject "MediatorBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E8F0FB71D51DE1C00F7F3AC;
+			productRefGroup = 9E8F0FC11D51DE1C00F7F3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8F0FBF1D51DE1C00F7F3AC /* MediatorBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E8F0FBC1D51DE1C00F7F3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB9A1471D524C940053D74B /* CommandMediator.swift in Sources */,
+				9E8F0FC41D51DE1C00F7F3AC /* main.swift in Sources */,
+				9E8F0FCF1D51DE4F00F7F3AC /* Airplane.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E8F0FC51D51DE1C00F7F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E8F0FC61D51DE1C00F7F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9E8F0FC81D51DE1C00F7F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E8F0FC91D51DE1C00F7F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E8F0FBB1D51DE1C00F7F3AC /* Build configuration list for PBXProject "MediatorBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8F0FC51D51DE1C00F7F3AC /* Debug */,
+				9E8F0FC61D51DE1C00F7F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8F0FC71D51DE1C00F7F3AC /* Build configuration list for PBXNativeTarget "MediatorBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8F0FC81D51DE1C00F7F3AC /* Debug */,
+				9E8F0FC91D51DE1C00F7F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E8F0FB81D51DE1C00F7F3AC /* Project object */;
+}
